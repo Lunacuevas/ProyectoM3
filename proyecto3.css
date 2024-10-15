@@ -280,20 +280,25 @@ Estilos para el div pre-footer *
     flex-direction: column;
     width: 50%;
     justify-content: center;
-    background-color: red;
-    color: #680748;
+    background-color: rgb(247, 226, 237);
+  
     align-items: center;
     border-radius: 20px;
     margin: 10px 0 30px 0;
     padding: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 .tarjeta p{
+    color: #000000;
     margin: 0;
     padding: 0;
+    font-weight:bold;
+    font-size:small
 }
 .tarjeta img{
     height: 150px;
-    width: 150px;
+    width: 210px;
+    border-radius: 100%;
 }
 /* Pie de página */
 footer {
@@ -314,6 +319,7 @@ footer {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    
 }
 
 .redes-sociales a {
@@ -323,6 +329,7 @@ footer {
 .contacto {
     margin-top: 0px;
 }
+
 
 footer p {
     margin-top: 20px;
@@ -345,9 +352,10 @@ footer p {
     cursor: pointer;
 }
 
-/* Responsive para móviles */
+/* Responsivo para celular*/
+
 @media (max-width: 768px) {
-    /* Ocultar el menú de navegación por defecto */
+    /* Ocultar el menú */
     header nav ul {
         display: none;
         flex-direction: column;

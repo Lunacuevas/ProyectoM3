@@ -74,7 +74,7 @@ header nav ul li  :hover{
 /* Contenido de la presentación */
 
 .contenido-presentacion {
-    background-color: #ff66b2; /* Fondo rosa */
+    background-color: #ff66b2; 
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -93,10 +93,10 @@ header nav ul li  :hover{
 .contenido-principal {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrar los elementos horizontalmente */
-    justify-content: center; /* Centrar los elementos verticalmente si hay altura suficiente */
+    align-items: center; 
+    justify-content: center; 
     width: 100%;
-     /* Color de fondo para contraste (opcional) */
+    
    
 }
 
@@ -105,28 +105,28 @@ body{
     height: 100vh;
 }
 h1 {
-    font-size: 2.5em; /* Tamaño de título */
+    font-size: 2.5em; 
     color: #fff;
     margin-bottom: 20px;
-    text-align: center; /* Centrar el texto */
+    text-align: center; 
 }
 
 h2 {
-    font-size: 1.8em; /* Aumentar tamaño de fuente para el subtítulo */
+    font-size: 1.8em; 
     color: #fff;
-    margin-bottom: 20px; /* Margen inferior para separación */
-    text-align: center; /* Centrar el texto */
+    margin-bottom: 20px; 
+    text-align: center; 
     align-items:center;
 }
 
 .formulario-email {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrar elementos del formulario */
+    align-items: center; 
     width: 50%;
-    padding: 20px; /* Espaciado interno para el formulario */
-    background-color:none; /* Color de fondo del formulario */
-    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; 
+    background-color:none; 
+    border-radius: 10px;
     justify-content: center;
 }
 
@@ -141,14 +141,14 @@ h2 {
 }
 
 .formulario-email button {
-    padding: 15px 20px; /* Aumentar padding para botón */
-    font-size: 1.2em; /* Aumentar tamaño de fuente para el botón */
-    background-color: #680748;; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
-    transition: background-color 0.3s; /* Efecto de transición */
+    padding: 15px 20px; 
+    font-size: 1.2em; 
+    background-color: #680748;; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
   
 }
 
@@ -230,18 +230,18 @@ h2 {
 
 }
 .item-servicio button:hover {
-    background-color: #000000; /* Cambio de color al pasar el mouse */
+    background-color: #000000; 
 }
 Estilos para el div pre-footer *
 .pre-footer {
     display: flex;
-    flex-direction: column; /* Alinea el texto y la imagen en columna */
-    align-items: center; /* Centra los elementos horizontalmente */
-    justify-content: center; /* Centra los elementos verticalmente */
-    padding: 40px; /* Añade espacio interior alrededor del contenido */
-    background-color: #f7f7f7; /* Color de fondo para el pre-footer */
-    min-height: 300px; /* Altura mínima adecuada */
-    text-align: center; /* Centra el texto dentro del div */
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 40px; 
+    background-color: #f7f7f7; 
+    min-height: 300px;
+    text-align: center; 
 }
 
 .pre-footer h1 {
@@ -281,6 +281,7 @@ Estilos para el div pre-footer *
     width: 50%;
     justify-content: center;
     background-color: rgb(247, 226, 237);
+   
   
     align-items: center;
     border-radius: 20px;
@@ -297,7 +298,7 @@ Estilos para el div pre-footer *
 }
 .tarjeta img{
     height: 150px;
-    width: 210px;
+    width: 150px;
     border-radius: 100%;
 }
 /* Pie de página */

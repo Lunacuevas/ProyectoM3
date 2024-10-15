@@ -1,0 +1,362 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e5aecaab;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f4879db1;
+    padding: 10px 20px;
+    color: #fff;
+    
+}
+
+header .logo img {
+    width: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li  :hover{
+    color: #680748;
+}
+
+
+/* Sección de presentación */
+.presentacion {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Misma altura que el carrusel */
+}
+
+.carrusel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Las imágenes estarán detrás del contenido */
+}
+
+.carrusel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Contenido de la presentación */
+
+.contenido-presentacion {
+    background-color: #ff66b2; /* Fondo rosa */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.contenido-presentacion h1 {
+    font-size: 10em;
+    margin-bottom: 20px;
+    color: #fff;
+    margin: 50px;
+}
+
+/* Estilo para el contenedor del formulario */
+contenido-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los elementos horizontalmente */
+    justify-content: center; /* Centrar los elementos verticalmente si hay altura suficiente */
+    min-height: 100vh; /* Altura mínima para ocupar toda la pantalla */
+    background-color: #222; /* Color de fondo para contraste (opcional) */
+    padding: 10px; /* Espaciado interno */
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 10%;
+    max-width: 10%;
+}
+
+h1 {
+    font-size: 2.5em; /* Tamaño de título */
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el texto */
+}
+
+h2 {
+    font-size: 1.8em; /* Aumentar tamaño de fuente para el subtítulo */
+    color: #fff;
+    margin-bottom: 20px; /* Margen inferior para separación */
+    text-align: center; /* Centrar el texto */
+    align-items:center;
+}
+
+.formulario-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar elementos del formulario */
+    width: 100%;
+    max-width: 500px; /* Ancho máximo del formulario */
+    padding: 20px; /* Espaciado interno para el formulario */
+    background-color:none; /* Color de fondo del formulario */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.formulario-email input {
+    padding: 15px; /* Aumentar padding para más espacio */
+    width: 100%; /* Ancho completo del contenedor */
+    margin-bottom: 20px; /* Margen inferior para separación */
+    font-size: 1.2em; /* Aumentar tamaño de fuente */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    text-align: center; /* Centrar texto dentro del input */
+}
+
+.formulario-email button {
+    padding: 15px 20px; /* Aumentar padding para botón */
+    font-size: 1.2em; /* Aumentar tamaño de fuente para el botón */
+    background-color: #680748;; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Efecto de transición */
+   align-items: center;
+}
+
+.formulario-email button:hover {
+    background-color: #000000; /* Cambio de color al pasar el mouse */
+}
+
+
+.contenido-principal h1{
+    color: #fff;
+    text-align: center;
+    font-size:50px;
+   background-color: #dfb5cb8c;
+
+}
+.contenido-principal h2 {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    background-color: #e5aeca75;
+    
+
+}
+
+.contenido-principal input {
+    color: #f4879d;
+    
+    margin-left: 300px;
+}
+
+/* Sección de servicios */
+.servicios {
+    padding: 50px 20px;
+    background-color: #fbd2d2;
+    text-align: center;
+
+}
+
+.servicios h2 {
+    color: #b00b71;
+    font-size: xx-large;
+}
+
+.lista-servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-servicio {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.item-servicio img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.item-servicio h3 {
+    margin: 15px 0;
+}
+
+.item-servicio h6 {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.item-servicio button {
+    padding: 10px 20px;
+    background-color: #680748;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 1px;
+
+}
+.item-servicio button:hover {
+    background-color: #000000; /* Cambio de color al pasar el mouse */
+}
+Estilos para el div pre-footer */
+.pre-footer {
+    display: flex;
+    flex-direction: column; /* Alinea el texto y la imagen en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    padding: 40px; /* Añade espacio interior alrededor del contenido */
+    background-color: #f7f7f7; /* Color de fondo para el pre-footer */
+    min-height: 300px; /* Altura mínima adecuada */
+    text-align: center; /* Centra el texto dentro del div */
+}
+
+.pre-footer h1 {
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: fffff;
+
+}
+
+.pre-footer img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
+    height: 100px; 
+    width: 150px;/* Mantiene las proporciones de la imagen */
+    border-radius: 20px; /* Opcional: bordes redondeados */
+    margin-top: 20px; 
+    margin-bottom: 30px;
+    align-items: center;
+  
+}
+
+.pre-footer p {
+    text-align: center;
+    color: #680748;
+    text-decoration: solid;
+    font-size: medium;
+    padding: 50px;
+    margin: 50px;
+    background-color:none
+   
+
+}
+
+.tarjeta {
+    color: #680748;
+}
+/* Pie de página */
+footer {
+    background-color:#f4879d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.redes-sociales a, .contacto a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.redes-sociales a {
+    margin: 15px;
+}
+
+.contacto {
+    margin-top: 0px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+
+
+/* Estilos para el menú hamburguesa */
+.hamburguesa {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    /* Ocultar el menú de navegación por defecto */
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #f4879db1;
+        padding: 10px 0;
+    }
+
+    /* Mostrar el ícono de hamburguesa */
+    .hamburguesa {
+        display: block;
+    }
+
+    /* Cuando el menú está abierto */
+    header nav ul.menu-abierto {
+        display: flex;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header nav ul li a {
+        text-align: center;
+        display: block;
+        padding: 10px;
+    }
+}
